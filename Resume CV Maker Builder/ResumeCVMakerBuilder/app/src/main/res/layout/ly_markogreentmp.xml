@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/_560sdp">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/lymarkogreens" android:background="@drawable/markogreenbg" android:layout_width="match_parent" android:layout_height="@dimen/_560sdp">
+        <LinearLayout android:background="#000000" android:layout_width="@dimen/_110sdp" android:layout_height="@dimen/_560sdp" android:layout_marginTop="@dimen/_10sdp" android:layout_marginBottom="@dimen/_10sdp" android:layout_marginStart="@dimen/_5sdp">
+            <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_110sdp" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="@dimen/_100sdp" android:layout_height="@dimen/_100sdp">
+                    <ImageView android:id="@+id/imgprofile_markgreen" android:background="@drawable/bgprofile" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:layout_marginTop="@dimen/_10sdp" android:src="@drawable/imagetoms" android:layout_marginStart="@dimen/_10sdp"/>
+                </LinearLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/conttitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:text="CONTACT" android:layout_marginStart="@dimen/_5sdp"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/_100sdp" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/phonemarko" android:layout_marginStart="@dimen/_5sdp"/>
+                        <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/emailmarko" android:layout_marginStart="@dimen/_5sdp"/>
+                        <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/bgadressrarko" android:layout_marginStart="@dimen/_5sdp"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                        <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_phoneNumbermarkogr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="+9266551215"/>
+                        <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_emailmarkogr" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginTop="@dimen/_10sdp" android:text="cvmaker@gmail.com"/>
+                        <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_adressmarkogr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="Your Street address/Town/City/Zip"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/skilltitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15sdp" android:text="SKILLS" android:layout_marginStart="@dimen/_5sdp"/>
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/_110sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill1markogr" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Photoshop" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintLeft_toLeftOf="parent"/>
+                    <SeekBar android:id="@+id/seekGreenmarko1" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill1markogr" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill1markogr"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill2markogr" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Illustrator" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill1markogr"/>
+                    <SeekBar android:id="@+id/seekGreenmarko2" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill2markogr" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill2markogr"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill3markogr" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="InDesign" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill2markogr"/>
+                    <SeekBar android:id="@+id/seekGreenmarko3" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill3markogr" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill3markogr"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill4markogr" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="After Effect" android:layout_marginStart="@dimen/_5sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill3markogr"/>
+                    <SeekBar android:id="@+id/seekGreenmarko4" android:layout_width="@dimen/_60sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill4markogr" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill4markogr"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_100sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp">
+                    <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/projtitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROJECTS" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/id_keven_nameFirst" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/id_keven_UrlFirst" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/id_keven_nameScond" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_7sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/id_keven_UrlSeconds" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/id_keven_nameThird" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_7sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/id_keven_UrlThird" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/id_keven_nameFourth" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_7sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/id_keven_UrlFourth" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_5sdp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/markowhitebg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:layout_marginBottom="@dimen/_10sdp" android:layout_marginStart="@dimen/_120sdp" android:layout_marginEnd="@dimen/_5sdp">
+            <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/name_markogr" android:layout_width="@dimen/_140sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="@string/marko_kevienars" android:layout_marginStart="@dimen/_35sdp"/>
+            <TextView android:textSize="12dp" android:id="@+id/designation_markogr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GRAPHIC DESIGNER" android:layout_marginStart="@dimen/_35sdp"/>
+            <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/objtitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="OJECTIVE" android:layout_marginStart="@dimen/_5sdp"/>
+            <TextView android:textSize="7dp" android:id="@+id/obj_markogr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="@string/about" android:layout_marginStart="@dimen/_5sdp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginEnd="@dimen/_5sdp">
+                <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/exptitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EXPERIENCE" android:layout_marginStart="@dimen/_5sdp"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="......................................." android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp" android:layout_marginEnd="@dimen/_2sdp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lymg_expfirst_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_markogr1" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarkogr1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_5sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarkogr1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lymg_expsecond_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp" android:layout_marginTop="@dimen/_8sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_markogr2" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarkogr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_5sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarkogr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lymg_third_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp" android:layout_marginTop="@dimen/_5sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_markogr3" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarkogr3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_5sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarkogr3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lymg_firstDetal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/compnymarkogr1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/jobdescptionmarkogr1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur ."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lymg_secondtDetal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="@dimen/_8sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/compnymarkogr2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/jobdescptionmarkogr2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lymg_thirdDetal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/compnymarkogr3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/jobdescptionmarkogr3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginEnd="@dimen/_5sdp">
+                <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/edutitlemg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDUCATION" android:layout_marginStart="@dimen/_5sdp"/>
+                <TextView android:textSize="@dimen/_8sdp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="........................................." android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:layout_marginStart="@dimen/_5sdp" android:layout_marginEnd="@dimen/_2sdp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lyMG_universtnamefirst" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/universtynamemarkogr1" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Name Of University"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/completionmarkoDategr1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lyMG_universtnamesecond" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/universtynamemarkogr2" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Name Of University"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/completionmarkoDategr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lyMG_universtnamethird" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/universtynamemarkogr3" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Name Of University"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/completionmarkoDategr3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lyMG_eduDetalfirst" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_3sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/degreemarkogr1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/degreedescrpmarkogr1" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lyMG_eduDetalsecond" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/_50sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/degreemarkogr2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/degreedescrpmarkogr2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lyMG_eduDetalthird" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_50sdp" android:layout_marginTop="@dimen/_2sdp">
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:id="@+id/degreemarkogr3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/degreedescrpmarkogr3" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_2sdp" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ly_tmpview_andeson" android:layout_width="match_parent" android:layout_height="@dimen/_600sdp" android:layout_marginStart="@dimen/_10sdp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:layout_width="@dimen/_115sdp" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_115sdp" android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView android:layout_gravity="center" android:id="@+id/imgprofile_whiteDvid" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:layout_marginTop="@dimen/_25sdp" android:src="@drawable/imgdvid" android:layout_marginStart="@dimen/_5sdp"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/_10sdp" android:layout_marginEnd="@dimen/_10sdp">
+                        <TextView android:textSize="10dp" android:textColor="@color/black" android:gravity="right" android:id="@+id/edu_wanderon" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="EDUCATION" android:layout_marginStart="@dimen/_25sdp"/>
+                        <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_70sdp"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/lyeduAnderFirst" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/dates_complet_andeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="2014"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/degreename_anderson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Degree Name"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/universityname_andeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="University Name"/>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/lyeduAnderSecond" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_date_secondAndeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="2010"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/degnamesecondAndeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Degree Name"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/universitynamesecondAndeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="University Name"/>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/lyeduAnderThird" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_date_thirdandr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="2012"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/degnamethirdandr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Degree Name"/>
+                            <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/universitynamethirdandr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="University Name"/>
+                        </LinearLayout>
+                        <TextView android:textSize="10dp" android:textColor="@color/black" android:gravity="right" android:id="@+id/contact_wanderon" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="PERSONAL INFO"/>
+                        <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_70sdp"/>
+                        <TextView android:textSize="8dp" android:gravity="right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Phone" android:layout_marginStart="@dimen/_30sdp"/>
+                        <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_phoneNumber" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text="+0096655121"/>
+                        <TextView android:textSize="8dp" android:gravity="right" android:id="@+id/id_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Email"/>
+                        <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_email_andrson" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginTop="@dimen/_2sdp" android:text="cvmaker@gmail.com"/>
+                        <TextView android:textSize="8dp" android:gravity="right" android:id="@+id/id_address" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text="Address"/>
+                        <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_adress_andeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text="Your Street address/Town/City/Zip"/>
+                        <TextView android:textSize="10dp" android:textColor="@color/black" android:gravity="right" android:id="@+id/proj_wanderon" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text="PROJECTS" android:layout_marginStart="@dimen/_30sdp"/>
+                        <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_70sdp"/>
+                        <TextView android:textSize="8dp" android:gravity="right" android:id="@+id/id_project1Anderson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text=""/>
+                        <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_projecturl1Anderson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text=""/>
+                        <TextView android:textSize="8dp" android:gravity="right" android:id="@+id/id_project2Andeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text=""/>
+                        <TextView android:textSize="7dp" android:gravity="right" android:id="@+id/id_projectUrl2Anderson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_2sdp" android:text=""/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22dp" android:textColor="@color/black" android:id="@+id/namee_wAnderson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:text="@string/david_anderson" android:layout_marginStart="@dimen/_10sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+            <TextView android:textSize="12dp" android:textColor="@color/black" android:id="@+id/designation_wAnderson" android:background="@drawable/bg_profession" android:layout_width="@dimen/_110sdp" android:layout_height="@dimen/_20sdp" android:text="Sr Software  Engineer " android:paddingStart="@dimen/_2sdp" android:layout_marginStart="@dimen/_10sdp" android:layout_marginEnd="@dimen/_30sdp"/>
+            <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/obj_wanderon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="OBJECTIVE" android:layout_marginStart="@dimen/_10sdp"/>
+            <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_10sdp"/>
+            <TextView android:textSize="7dp" android:id="@+id/objDetailandeson" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Job Objective To secure a challenging and rewarding position as Android Developer with an established organization that can utilize my skills and experience. Designed and coded from specifications, analyzed, evaluated, tested and implemented complex software apps" android:layout_marginStart="@dimen/_10sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+            <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/exper_wanderon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="EXPERIENCE" android:layout_marginStart="@dimen/_10sdp"/>
+            <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_10sdp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderDate_first" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="7dp" android:id="@+id/join_id_anrson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2020" android:layout_marginStart="@dimen/_10sdp"/>
+                <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_1sdp" android:layout_marginEnd="@dimen/_1sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/end_id_anderson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2021"/>
+                <TextView android:textSize="7dp" android:textStyle="bold" android:id="@+id/id_designation_andeson" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Senior UX Designer" android:layout_marginStart="@dimen/_32sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderComnyNamefirst" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_55sdp" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="7dp" android:id="@+id/id_compnyname_andeson" android:layout_width="@dimen/_60sdp" android:layout_height="wrap_content" android:text="Company Name" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/detaildescription_anderson" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." android:layout_marginStart="@dimen/_17sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderDate_second" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="7dp" android:id="@+id/secnd_job_startAndeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018" android:layout_marginStart="@dimen/_10sdp"/>
+                <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_1sdp" android:layout_marginEnd="@dimen/_1sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/job_end_secondAndeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2019"/>
+                <TextView android:textSize="7dp" android:textStyle="bold" android:id="@+id/id_designation2Andeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Junior UX Designer" android:layout_marginStart="@dimen/_35sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderComnyNamesecond" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_55sdp" android:layout_marginTop="@dimen/_10sdp">
+                <TextView android:textSize="7dp" android:id="@+id/id_description2Andeson" android:layout_width="@dimen/_60sdp" android:layout_height="wrap_content" android:text="Company Name" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/detaildescription2Andeson" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut." android:layout_marginStart="@dimen/_17sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderDate_third" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="7dp" android:id="@+id/job_joinstrt3Andeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017" android:layout_marginStart="@dimen/_10sdp"/>
+                <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_1sdp" android:layout_marginEnd="@dimen/_1sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/job_end_3Andeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                <TextView android:textSize="7dp" android:textStyle="bold" android:id="@+id/id_designation3Andeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Junior UX Designer" android:layout_marginStart="@dimen/_35sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/ly_expAnderComnyNamethird" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_55sdp" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="7dp" android:id="@+id/id_description3Andeson" android:layout_width="@dimen/_60sdp" android:layout_height="wrap_content" android:text="Company Name" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:id="@+id/detaildescription3Andeson" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do." android:layout_marginStart="@dimen/_17sdp" android:layout_marginEnd="@dimen/_5sdp"/>
+            </LinearLayout>
+            <TextView android:textSize="10dp" android:textColor="@color/black" android:id="@+id/skill_wanderon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SKILLS" android:layout_marginStart="@dimen/_10sdp"/>
+            <View android:background="@drawable/yallowview" android:layout_width="@dimen/_22sdp" android:layout_height="2dp" android:layout_marginTop="@dimen/_2sdp" android:layout_marginStart="@dimen/_10sdp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/lyid_firsttwo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp" android:layout_marginEnd="@dimen/_5sdp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/_80sdp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                    <TextView android:textSize="8dp" android:id="@+id/tv_skillOneAndeson" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Photoshop "/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/ly_skill2" android:layout_width="@dimen/_80sdp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                    <TextView android:textSize="8dp" android:id="@+id/tv_skillTwoAndeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="InDesign "/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/lyid_lasttwo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp" android:layout_marginEnd="@dimen/_5sdp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/_80sdp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                    <TextView android:textSize="8dp" android:id="@+id/tv_skillThreeandeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Illustrator"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/ly_skill3" android:layout_width="@dimen/_80sdp" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                    <TextView android:textSize="8dp" android:id="@+id/tv_skillFourAndeson" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="After Effect"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:id="@+id/showbtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="show"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/_560sdp">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/lymarkocv" android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/_560sdp">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ivmarkobg" android:layout_width="@dimen/_170sdp" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="@dimen/_100sdp" android:layout_height="@dimen/_100sdp">
+                <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/ivmako" android:layout_width="@dimen/_80sdp" android:layout_height="@dimen/_80sdp" android:layout_marginTop="@dimen/_20sdp" android:src="@drawable/imagetoms" android:layout_marginStart="@dimen/_10sdp" app:civ_border_color="#ffff" app:civ_border_width="@dimen/_2sdp"/>
+            </LinearLayout>
+            <TextView android:textSize="10dp" android:textColor="@color/white" android:id="@+id/conttitlemarko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:text="CONTACT" android:layout_marginStart="@dimen/_10sdp"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/_100sdp" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/phonemarko" android:layout_marginStart="@dimen/_10sdp"/>
+                    <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/emailmarko" android:layout_marginStart="@dimen/_10sdp"/>
+                    <ImageView android:layout_width="@dimen/_15sdp" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_5sdp" android:src="@drawable/bgadressrarko" android:layout_marginStart="@dimen/_10sdp"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_10sdp">
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_phoneNumbermarko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="+0096655121"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_emailmarko" android:layout_width="wrap_content" android:layout_height="28dp" android:layout_marginTop="@dimen/_7sdp" android:text="cvmakera@gmail.com"/>
+                    <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/tv_adressmarko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_3sdp" android:text="Your Street address/Town/City/Zip"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="10dp" android:textColor="@color/white" android:id="@+id/skilltitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_15sdp" android:text="SKILLS" android:layout_marginStart="@dimen/_10sdp"/>
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/_110sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill1marko" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Photoshop" android:inputType="textMultiLine" android:layout_marginStart="@dimen/_10sdp" app:layout_constraintLeft_toLeftOf="parent"/>
+                <SeekBar android:id="@+id/seek_mako1" android:layout_width="@dimen/_65sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill1marko" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill1marko"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill2marko" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="Illustrator" android:inputType="textMultiLine" android:layout_marginStart="@dimen/_10sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill1marko"/>
+                <SeekBar android:id="@+id/seek_mako2" android:layout_width="@dimen/_65sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill2marko" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill2marko"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill3marko" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="InDesign" android:inputType="textMultiLine" android:layout_marginStart="@dimen/_10sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill2marko"/>
+                <SeekBar android:id="@+id/seek_mako3" android:layout_width="@dimen/_65sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill3marko" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill3marko"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/tv_skill4marko" android:layout_width="@dimen/_45sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="After Effect" android:inputType="textMultiLine" android:layout_marginStart="@dimen/_10sdp" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@+id/tv_skill3marko"/>
+                <SeekBar android:id="@+id/seek_mako4" android:layout_width="@dimen/_65sdp" android:layout_height="@dimen/_5sdp" android:layout_marginTop="@dimen/_5sdp" android:progressTint="@color/white" android:thumbTint="@color/white" app:layout_constraintBottom_toBottomOf="@+id/tv_skill4marko" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@+id/tv_skill4marko"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_100sdp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp">
+                <TextView android:textSize="10dp" android:textColor="@color/white" android:id="@+id/projtitlemarko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROJECTS" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/marrkoprojoneName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/markocvurlone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/marrkoprojtwoName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/markocvurltwo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/marrkoprojthreeName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/markocvurlthree" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="8dp" android:textColor="@color/white" android:id="@+id/marrkoprojfourthName" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_10sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+                <TextView android:textSize="7dp" android:textColor="@color/white" android:id="@+id/markocvurlfourth" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="" android:layout_marginStart="@dimen/_10sdp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_20sdp" android:layout_marginStart="@dimen/_120sdp" android:layout_marginEnd="@dimen/_1sdp">
+            <TextView android:textSize="22dp" android:textColor="@color/black" android:id="@+id/name_marko" android:layout_width="@dimen/_150sdp" android:layout_height="wrap_content" android:text="@string/marko_kevienars" android:layout_marginStart="@dimen/_30sdp"/>
+            <TextView android:textSize="12dp" android:id="@+id/designation_marko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GRAPHIC DESIGNER" android:layout_marginStart="@dimen/_30sdp"/>
+            <TextView android:textSize="10dp" android:textColor="#3aa3c7" android:id="@+id/objTittle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="OBJECTIVE"/>
+            <TextView android:textSize="7dp" android:id="@+id/obj_marko" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:text="@string/about" android:layout_marginEnd="@dimen/_2sdp"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/lyexperencemarko" android:layout_width="match_parent" android:layout_height="@dimen/_15sdp" android:layout_marginTop="@dimen/_10sdp">
+                <TextView android:textSize="10dp" android:textColor="#3aa3c7" android:id="@+id/idexpertitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EXPERIENCE"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="....................................." android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <LinearLayout android:orientation="vertical" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ly_kivenExpdatefirst" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_65sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_marko1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarko1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_3sdp" android:layout_marginEnd="@dimen/_1sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarko1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ly_kivenExpdatesecond" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_65sdp" android:layout_marginTop="@dimen/_3sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_marko2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarko2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_4sdp" android:layout_marginStart="@dimen/_3sdp" android:layout_marginEnd="@dimen/_1sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarko2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ly_kivenExpdatethird" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_65sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/designation_marko3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lead Web Designer"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobstartmarko3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                            <View android:background="@drawable/blackline" android:layout_width="@dimen/_3sdp" android:layout_height="1dp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_3sdp"/>
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/jobendmarko3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2018"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/ly_kivenExpdescfirst" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_65sdp">
+                        <View android:background="@drawable/recview" android:layout_width="@dimen/_3sdp" android:layout_height="@dimen/_35sdp" android:layout_marginStart="@dimen/_5sdp"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/compnymarko1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="8dp" android:id="@+id/jobdescptionmarko1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit sit amet, consectetur adipiscing elit ."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lymarkoDecsecond" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_65sdp">
+                        <View android:background="@drawable/recview" android:layout_width="@dimen/_3sdp" android:layout_height="@dimen/_35sdp" android:layout_marginTop="@dimen/_10sdp" android:layout_marginStart="@dimen/_5sdp"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_8sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/compnymarko2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/jobdescptionmarko2" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lymarkoDecthird" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_65sdp">
+                        <View android:background="@drawable/recview" android:layout_width="@dimen/_3sdp" android:layout_height="@dimen/_35sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/compnymarko3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/jobdescptionmarko3" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/_15sdp">
+                <TextView android:textSize="10dp" android:textColor="#3aa3c7" android:id="@+id/edutitlemarko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="EDUCATION"/>
+                <TextView android:textSize="@dimen/_10sdp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="......................................" android:layout_marginStart="@dimen/_5sdp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lyEduKevenfirstUname" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_65sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/universtynamemarko1" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Name Of University"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/completionmarkoDate1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/lyEduKevensecondUname" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/_55sdp">
+                        <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/universtynamemarko2" android:layout_width="@dimen/_70sdp" android:layout_height="wrap_content" android:text="Name Of University"/>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/completionmarkoDate2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2017"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lyEdukevenfirstDetail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_65sdp">
+                        <View android:background="@drawable/recview" android:layout_width="@dimen/_3sdp" android:layout_height="@dimen/_35sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/degreemarko1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/degreedescrpmarko1" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit."/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/lyEdukevensecondDetail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/_70sdp" android:layout_marginTop="@dimen/_5sdp">
+                        <View android:background="@drawable/recview" android:layout_width="@dimen/_3sdp" android:layout_height="@dimen/_35sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp"/>
+                        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/_60sdp" android:layout_marginTop="@dimen/_5sdp" android:layout_marginStart="@dimen/_5sdp">
+                            <TextView android:textSize="8dp" android:textColor="@color/black" android:id="@+id/degreemarko2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ART CREATIVE SOLUATION"/>
+                            <TextView android:textSize="7dp" android:id="@+id/degreedescrpmarko2" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet faucibus adipiscing elit. Mauris sit amet faucibus"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
